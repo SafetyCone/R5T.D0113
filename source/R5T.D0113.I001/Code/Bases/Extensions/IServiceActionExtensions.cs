@@ -9,7 +9,7 @@ namespace R5T.D0113.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="ParentDirectoryPathProvider"/> implementation of <see cref="IParentDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="ParentDirectoryPathProvider"/> implementation of <see cref="IParentDirectoryPathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IParentDirectoryPathProvider> AddParentDirectoryPathProviderAction(this IServiceAction _)
         {

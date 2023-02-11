@@ -14,12 +14,9 @@ namespace R5T.D0113.I001
     {
         public Task<string> GetParentDirectoryPath(string path)
         {
-            
+            throw new NotImplementedException();
 
-            
-
-
-            return Task.FromResult(output);
+            //return Task.FromResult(output);
         }
     }
 }
